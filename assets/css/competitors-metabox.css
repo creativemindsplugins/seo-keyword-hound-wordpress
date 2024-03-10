@@ -1,0 +1,110 @@
+#cmsk2 [v-cloak] {
+    display: none;
+}
+#cmsk2 .loading {
+    display: none;
+}
+#cmsk2 .loading[v-cloak] {
+    display: block;
+}
+#cmsk2-list header,
+#cmsk2-list section .cmsk-row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#cmsk2-list header > div,
+#cmsk2-list section .cmsk-row > div{
+    display: flex;
+    width: 25%;
+    align-self: stretch;
+    align-items: baseline;
+    padding: 0 2px;
+    /*white-space: nowrap;*/
+    text-overflow: ellipsis;
+    /*    min-height: 32px;*/
+}
+#cmsk2-list header > div:first-of-type{
+    width: 50%;
+}
+#cmsk2-list header > div:nth-of-type(2),
+#cmsk2-list section .cmsk-row > div:nth-of-type(2) {
+    width: 50%;
+}
+#cmsk2-list section .cmsk-row > div:first-of-type{
+    width: 50%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#cmsk2-list section > div:last-of-type{
+    padding: 0;
+}
+#cmsk2-list header > div:last-of-type,
+#cmsk2-list section .cmsk-row > div:last-of-type{
+    width: 45px;
+    flex-shrink: 0;
+}
+.cmsk-row > div > * {margin: auto 4px auto 0;}
+#cmsk2-list .space-around{
+    justify-content: space-around;
+}
+
+#cmsk2-list{
+    border: 1px solid #ddd;
+}
+#cmsk2-list header{
+    height: 32px;
+    font-weight: bold;
+    background: #f1f1f1;
+}
+#cmsk2-list section{
+    background: #f9f9f9;
+}
+
+#cmsk2-list section:nth-of-type(even) {
+    background: #e7e7e7;
+}
+
+#cmsk2-list .cmsk2-section-area{
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+#cmsk2-list section:hover{
+    background: #f3f3f3;
+}
+
+#cmsk-competitor-filter{
+    margin-left: 10px;
+}
+
+.cmsk-competitor {
+    font-weight: bold;
+}
+.cmsk-competitor::after, .cmsk-competitor::before {
+    content: '"';
+}
+
+#swal2-content .moz-container{
+    text-align: left;
+}
+
+#swal2-content .moz-container > div{
+    width: 32%;
+    display: inline-block;
+    /*padding: 0 10px 0 0;*/
+}
+
+.cmsk2-togglable {
+    cursor: pointer;
+}
+
+.cmsk2-togglable:hover {
+    font-weight: bold;
+}
+
+.cmsk2-short-inline-input {
+    max-width: 30px;
+    width: 30px;
+}

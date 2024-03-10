@@ -1,0 +1,198 @@
+#cmsk1 [v-cloak], #cmsk1-swal-app1 [v-cloak] {
+    display: none;
+}
+#cmsk1 .loading, #cmsk1-swal-app1 .loading {
+    display: none;
+}
+#cmsk1 .loading[v-cloak], #cmsk1-swal-app1 .loading[v-cloak] {
+    display: block;
+}
+#cmsk1-list header,
+#cmsk1-list section .cmsk-row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#cmsk1-list section:nth-of-type(even) {
+    background: #e7e7e7;
+}
+#cmsk1-list header > div,
+#cmsk1-list section .cmsk-row > div{
+    display: flex;
+    width: 25%;
+    align-self: stretch;
+    align-items: center;
+    padding: 0 2px;
+    /*white-space: nowrap;*/
+    text-overflow: ellipsis;
+    /*    min-height: 32px;*/
+}
+#cmsk1-list header > div:first-of-type{
+    width: 50%;
+}
+#cmsk1-list section .cmsk-row > div:first-of-type{
+    width: 50%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#cmsk1-list section > div:last-of-type{
+    padding: 0;
+}
+#cmsk1-list header > div:last-of-type,
+#cmsk1-list section .cmsk-row > div:last-of-type{
+    width: 65px;
+    flex-shrink: 0;
+}
+#cmsk1-list .space-around{
+    justify-content: space-around;
+}
+
+#cmsk1-list{
+    border: 1px solid #ddd;
+}
+#cmsk1-list header{
+    height: 32px;
+    font-weight: bold;
+    background: #f1f1f1;
+    text-align: center;
+    line-height: 14px;
+}
+#cmsk1-list section{
+    background: #f9f9f9;
+}
+#cmsk1-list .cmsk1-section-area{
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+#cmsk1-list section .cmsk-row.cmsk-row-alt.hidden{
+    display: none;
+}
+#cmsk1-list section .cmsk-row.cmsk-row-alt.hidden.expanded{
+    display: flex;
+}
+#cmsk1-list section .cmsk-row.cmsk-row-alt > div{
+    color: #999;
+    /*    min-height: 24px;*/
+    font-size: 11px;
+}
+#cmsk1-list section .cmsk-row.cmsk-row-alt-main > div{
+    color: #d54e21;
+    /*    min-height: 24px;*/
+}
+#cmsk1-list .cmsk-primary-text{
+    /*word-break: break-all;*/
+    word-break: normal;
+}
+#cmsk1-list section div{
+    white-space: nowrap;
+}
+#cmsk1-list section div:first-of-type{
+    white-space: normal;
+}
+
+.cmsk-keyword {
+    font-weight: bold;
+}
+.cmsk-keyword::after, .cmsk-keyword::before {
+    content: '"';
+}
+#cmsk1-list section:hover{
+    background: #f3f3f3;
+}
+#cmsk1-list section .cmsk-row-alt:hover{
+    background: #ececec;
+}
+
+#cmsk1-list .compare-value{
+    vertical-align: super;
+    font-size: 0.7em;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px #000;
+    border-radius: 2px;
+    padding: 0 2px;
+    color: #9933ff;
+}
+#cmsk1-list .value-empty,
+#cmsk1-list .compare-value-empty{
+    opacity: 0.25;
+}
+
+/* swal app1 */
+#cmsk1-swal-app1{
+}
+#cmsk1-swal-app1.ajax .ajax-cloak{
+    display: none;
+}
+#cmsk1-swal-app1.ajax .loading{
+    display: block;
+}
+#cmsk1-swal-app1{
+    position: relative;
+}
+#cmsk1-swal-app1 .loading{
+    padding: 30px 0;
+}
+#cmsk1-swal-app1 .swal2-input[type=number] {
+    max-width: none;
+}
+
+#cmsk1-tpl-thesarus-content .loading, #cmsk1-tpl-thesarus-content.ajax .ajax-cloak {
+    display: none;
+}
+#cmsk1-tpl-thesarus-content.ajax .loading, #cmsk1-tpl-thesarus-content .ajax-cloak {
+    display: block;
+}
+#cmsk1-tpl-thesarus-content .cmsk_keywords_list {
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+#cmsk1-tpl-thesarus-content .cmsk_keywords_list li {
+    display: inline-block;
+    width: 33.333%;
+    box-sizing: border-box;
+    padding-right: 10px;
+    text-align: left;
+}
+
+#cmsk1-app-websearch *[v-cloak]{
+    visibility: hidden;
+}
+
+#cmsk-keyword-filter{
+    margin-left: 10px;
+}
+
+.dashicons.dashicons-networking.is-opportunity{
+    background-color: yellow;
+}
+
+#cmsk1-list .compare-value.is-opportunity-all{
+    background-color: yellow;
+}
+#cmsk1-list .compare-value-all.is-opportunity-all{
+    background-color: yellow;
+}
+
+.cmsk-dialog #cmsk1-list .compare-value{
+    display: block;
+}
+
+.cmsk-dialog #cmsk1-list .compare-value-all {
+    vertical-align: super;
+    font-size: 0.7em;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px #000;
+    border-radius: 2px;
+    padding: 0 2px;
+    color: #9933ff;
+    display: inline-block;
+}
+
+#cmsk1-import-msg {
+    color: green;
+}

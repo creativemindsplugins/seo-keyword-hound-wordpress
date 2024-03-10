@@ -1,0 +1,134 @@
+#cmsk4 [v-cloak], #cmsk4-swal-app1 [v-cloak] {
+    display: none;
+}
+#cmsk4 .loading, #cmsk4-swal-app1 .loading {
+    display: none;
+}
+#cmsk4 .loading[v-cloak], #cmsk4-swal-app1 .loading[v-cloak] {
+    display: block;
+}
+#cmsk4.cmsk-init *{
+    display: none;
+}
+#cmsk4.cmsk-init .loading, #cmsk4.cmsk-init .loading *{
+    display: block;
+}
+/* list */
+#cmsk4-list header,
+#cmsk4-list section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0px;
+}
+#cmsk4-list section:nth-of-type(even){
+    background: #e7e7e7;
+}
+#cmsk4-list header > div,
+#cmsk4-list section > div{
+    display: flex;
+    width: 25%;
+    align-self: stretch;
+    align-items: center;
+    padding: 0 2px;
+    text-overflow: ellipsis;
+    /*    min-height: 32px;*/
+}
+#cmsk4-list section > div:last-of-type{
+    padding: 0;
+}
+#cmsk4-list header > div:first-of-type,
+#cmsk4-list section > div:first-of-type{
+    width: 40%;
+}
+#cmsk4-list header > div:last-of-type,
+#cmsk4-list section > div:last-of-type{
+    width: 65px;
+    flex-shrink: 0;
+}
+#cmsk4-list .space-around{
+    justify-content: space-around;
+}
+#cmsk4-list .cmsk4-section-area td {
+    text-align: center;
+}
+#cmsk4-list .cmsk4-section-area td.left {
+    text-align: left;
+}
+#cmsk4-list .cmsk4-section-area td:first-of-type {
+    text-align: left;
+}
+
+#cmsk4-list{
+    border: 1px solid #ddd;
+}
+#cmsk4-list header{
+    height: 32px;
+    font-weight: bold;
+    background: #f1f1f1;
+    text-align: center;
+    line-height: 14px;
+}
+#cmsk4-list section{
+    background: #f9f9f9;
+}
+#cmsk4-list .cmsk4-section-area{
+    overflow-y: scroll;
+    max-height: 800px;
+}
+#cmsk4-list section:hover{
+    background: #f3f3f3;
+}
+
+/* swal app */
+#cmsk4-swal-app1.ajax .ajax-cloak{
+    display: none;
+}
+#cmsk4-swal-app1.ajax .loading{
+    display: block;
+}
+#cmsk4-swal-app1{
+    position: relative;
+}
+#cmsk4-swal-app1 .loading{
+    padding: 50px 0 30px 0;
+}
+#cmsk4-swal-app1 .swal2-input[type=number] {
+    max-width: none;
+}
+.cmsk_metrics_title a {
+    text-decoration: none;
+}
+
+.cmsk-duplicate * {
+    color: green !important;
+}
+
+.cmsk-current * {
+    color: #a118d8 !important;
+}
+
+.cmsk-color-sample {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: text-bottom;
+    padding: 0;
+    margin: 0;
+}
+.cmsk-color-sample.active {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+span.cmsk-color-sample.first:before {
+    content: 'x';
+    margin: 4px;
+    position: absolute;
+    margin-top: -3px;
+}
+
+.cmsk-action-trends-modal-chart:before{
+    content: ' ';
+    display: block;
+}

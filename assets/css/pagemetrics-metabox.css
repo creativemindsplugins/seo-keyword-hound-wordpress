@@ -1,0 +1,135 @@
+#cmsk3 [v-cloak], #cmsk3-swal-app1 [v-cloak] {
+    display: none;
+}
+#cmsk3 .loading, #cmsk3-swal-app1 .loading {
+    display: none;
+}
+#cmsk3 .loading[v-cloak], #cmsk3-swal-app1 .loading[v-cloak] {
+    display: block;
+}
+#cmsk3.cmsk-init *{
+    display: none;
+}
+#cmsk3.cmsk-init .loading, #cmsk3.cmsk-init .loading *{
+    display: block;
+}
+/* list */
+#cmsk3-list header,
+#cmsk3-list section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0px;
+}
+#cmsk3-list section:nth-of-type(even){
+    background: #e7e7e7;
+}
+#cmsk3-list header > div,
+#cmsk3-list section > div{
+    display: flex;
+    width: 25%;
+    align-self: stretch;
+    align-items: center;
+    padding: 0 2px;
+    text-overflow: ellipsis;
+    /*    min-height: 32px;*/
+}
+#cmsk3-list section > div:last-of-type{
+    padding: 0;
+}
+#cmsk3-list header > div:first-of-type,
+#cmsk3-list section > div:first-of-type{
+    width: 40%;
+}
+#cmsk3-list header > div:last-of-type,
+#cmsk3-list section > div:last-of-type{
+    width: 65px;
+    flex-shrink: 0;
+}
+#cmsk3-list .space-around{
+    justify-content: space-around;
+}
+#cmsk3-list .cmsk3-section-area td {
+    text-align: center;
+}
+#cmsk3-list .cmsk3-section-area td:first-of-type {
+    text-align: left;
+}
+
+#cmsk3-list{
+    border: 1px solid #ddd;
+}
+#cmsk3-list header{
+    height: 32px;
+    font-weight: bold;
+    background: #f1f1f1;
+    text-align: center;
+    line-height: 14px;
+}
+#cmsk3-list section{
+    background: #f9f9f9;
+}
+#cmsk3-list .cmsk3-section-area{
+    overflow-y: scroll;
+    max-height: 800px;
+}
+#cmsk3-list section:hover{
+    background: #f3f3f3;
+}
+
+/* swal app */
+#cmsk3-swal-app1.ajax .ajax-cloak{
+    display: none;
+}
+#cmsk3-swal-app1.ajax .loading{
+    display: block;
+}
+#cmsk3-swal-app1{
+    position: relative;
+}
+#cmsk3-swal-app1 .loading{
+    padding: 50px 0 30px 0;
+}
+#cmsk3-swal-app1 .swal2-input[type=number] {
+    max-width: none;
+}
+.cmsk_metrics_title a {
+    text-decoration: none;
+}
+
+.cmsk-duplicate * {
+    color: green !important;
+}
+
+.cmsk-current * {
+    color: #a118d8 !important;
+}
+
+.cmsk-row-color-selector-div {
+    padding-top: 5px;
+}
+
+.cmsk-color-sample {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    vertical-align: text-bottom;
+    padding: 0;
+    margin: 0;
+}
+.cmsk-color-sample.active {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+span.cmsk-color-sample.first:before {
+    content: 'x';
+    margin: 4px;
+    position: absolute;
+    margin-top: -3px;
+}
+
+.cmsk-action-trends-modal-chart:before{
+    content: ' ';
+    display: block;
+}
