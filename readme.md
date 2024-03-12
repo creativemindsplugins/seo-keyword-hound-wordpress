@@ -7,7 +7,7 @@
 
 ## Introduction
 
-[Product Page](https://www.cminds.com/wordpress-plugins-library/seo-keyword-hound-wordpress/) | [Video](https://vimeo.com/261371057)  | [User Guide](https://creativeminds.helpscoutdocs.com/category/2036-seo-keyword-hound) | [Additional CM Plugins](https://www.cminds.com/wordpress-plugins-library)
+[Product Page](https://www.cminds.com/wordpress-plugins-library/seo-keyword-hound-wordpress/) | [Video](https://vimeo.com/261371057)  | [User Guide](https://creativeminds.helpscoutdocs.com/category/2036-seo-keyword-hound)
 
 **Enhance your website’s SEO effortlessly with the SEO Keyword Hound, a distinctive plugin for WordPress that simplifies keyword oversight.**
 
